@@ -13,9 +13,9 @@ namespace TABG_Hack.Patches
 
 		[HarmonyPrefix]
 		[HarmonyPatch("Initialize")]
-		static bool Prefix1(ref bool __m_initialized)
+		static bool Prefix1(ref bool ___m_initialized)
 		{
-			__m_initialized = true;
+			___m_initialized = true;
 			return true;
 		}
 
