@@ -18,7 +18,7 @@ namespace TABG_Hack.Scripts
 
 		void Start()
 		{
-			//AddScripts();
+			AddScripts();
 
 
 			//mainCam = Camera.main;
@@ -52,17 +52,17 @@ namespace TABG_Hack.Scripts
 		//;
 		//		}
 
-		//		private void AddScripts()
-		//		{
-		//			List<MonoBehaviour> compList = new List<MonoBehaviour>();
-		//			this.gameObject.AddComponent<SharkHack>();
-		//			this.gameObject.AddComponent<EntityESP>();
-		//			this.gameObject.GetComponents<MonoBehaviour>(compList);
-		//			foreach(Component comp in compList)
-		//			{
-		//				Debug.LogError($"{comp.GetType().Name} Initialized");
-		//			}
-		//		}
+		private void AddScripts()
+		{
+			List<MonoBehaviour> compList = new List<MonoBehaviour>();
+			//this.gameObject.AddComponent<SharkHack>();
+			this.gameObject.AddComponent<EntityESP>();
+			this.gameObject.GetComponents<MonoBehaviour>(compList);
+			foreach (Component comp in compList)
+			{
+				Debug.LogError($"{comp.GetType().Name} Initialized");
+			}
+		}
 
 		//		private void HandleInput()
 		//		{
