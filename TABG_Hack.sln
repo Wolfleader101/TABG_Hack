@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30907.101
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TABG_Hack", "TABG_Hack.csproj", "{808D5DFF-6BBD-4763-8FE0-B850F881D132}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{808D5DFF-6BBD-4763-8FE0-B850F881D132}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{808D5DFF-6BBD-4763-8FE0-B850F881D132}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{808D5DFF-6BBD-4763-8FE0-B850F881D132}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{808D5DFF-6BBD-4763-8FE0-B850F881D132}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3E17A59A-1692-446E-91FC-C4B72A34B70A}
+	EndGlobalSection
+EndGlobal
